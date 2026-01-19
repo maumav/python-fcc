@@ -19,9 +19,21 @@ def check_win(player, computer):
     elif player == "rock":
         if computer == "scissors":
             return ("rock smashes scissors!")
-    else:
-        return "paper covers rock!"
-    
+        else:
+            return ("Paper covers rock! You lose")  
+    elif player == "paper":
+        if computer == "rock":
+            return ("paper smashes rock! You win")
+        else:
+            return "Scissors cuts paper! You lose"
+    elif player == "scissors":
+        if computer == "paper":
+            return ("scissors smashes paper! You win")
+        else:
+            return ("Rock breaks scissors! You lose")
 
-check_win("rock", "paper")
+choices = get_choices()
+
+result = check_win(choices["player"], choices["computer"])
+print(result)
 
