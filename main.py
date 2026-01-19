@@ -10,8 +10,18 @@ def get_choices():
 choices = get_choices()
 print(choices)
 
-food = ["pizza", "cake", "eggs"]
-dinner = random.choice(food)
+
 
 def check_win(player, computer):
-    return [player, computer]
+    print(f"You chose  {player}, computer chose  {computer} ")
+    if player == computer:
+        return ("It's a tie.")
+    elif player == "rock":
+        if computer == "scissors":
+            return ("rock smashes scissors!")
+    else:
+        return "paper covers rock!"
+    
+
+check_win("rock", "paper")
+
