@@ -37,6 +37,13 @@
 # result = check_win(choices["player"], choices["computer"])
 # print(result)
 
-print("What is your age")
-age = input()
-print("your age is " + age)
+#Asking for input from user.
+# print("What is your age")
+# age = input()
+# print("Your age is " + age)
+
+#Lists
+names = ['John', 'Kennedy', 'Marshe', 'Ken']
+names[2] = "Java" #change obj 2 to Java.
+print(names) #names list will result in new updated list.
+
