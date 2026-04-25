@@ -76,9 +76,31 @@
 
 # Functions variable scope
 # age = 28 #global scope variable
-def test():
-    age2 = 29
-    print(age2)
+# def test():
+#     age2 = 29
+#     print(age2)
+# test()
+#print(age2) #not available outside the function, = error.
 
-test()
-print(age2) #not available outside the function, = error.
+#Objects 
+# age = 8
+# print(age.real)
+# print(age.imag)
+# print(age.bit_length())
+
+# items = [1, 2]
+
+#Loops: while and for
+# condition = True
+# while condition == True:
+#     print("The condition is True.")
+#     condition = False 
+
+# count = 0
+# while count < 10:
+#     print("condition is true.")
+#     count += 1
+
+items = [1,2,3,4]
+for item in items:
+    print(item)   
