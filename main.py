@@ -60,5 +60,25 @@
 # print(sorted(name2))
 
 #Dictionaries
-dog = {"name": "Roger", "age": 8}
-print(dog.get("name"))
+# dog = {"name": "Roger", "age": 8}
+# print(dog.get("name"))
+
+#Functions 
+
+# def hello(name, age): #parameters here 
+#     print("Hello " + name + " you are " + str(age) + " years old.")
+# hello("Brad", 29) #arguments
+
+# def hello(name):
+#     print("Hello " + name + "!")
+#     return name, "Beau", 8
+# print(hello("Syd"))
+
+# Functions variable scope
+# age = 28 #global scope variable
+def test():
+    age2 = 29
+    print(age2)
+
+test()
+print(age2) #not available outside the function, = error.
