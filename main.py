@@ -101,6 +101,30 @@
 #     print("condition is true.")
 #     count += 1
 
-items = [1,2,3,4]
-for item in items:
-    print(item)   
+# items = [1,2,3,4]
+# for item in items:
+#     print(item)   
+
+# items = [1,2,3,4]
+# for index, item in enumerate(items): #prints index of items and the items 
+#     print(index, item)   
+
+#Classes
+# class Animal:
+#     def walk(self):
+#         print("walking...")
+# class Dog(Animal): #inheriting Animal method
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age 
+
+#     def bark(self):
+#         print("WOOF")
+
+# roger = Dog("Roger", 8)
+# print(roger.name)
+# print(roger.age)
+# roger.bark()
+# roger.walk()
+
+#Modules
