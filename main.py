@@ -128,3 +128,23 @@
 # roger.walk()
 
 #Modules
+# import dog #imports all
+# dog.bark()
+
+# from dog import bark #only imports the bark 
+# bark()
+# #If I had dog.py file inside a lib subfolder, i need to make a __init__.py file to tell that the folder
+# #contains modules.
+# from lib import dog
+# dog.bark()
+# #or 
+# from lib.dog import bark
+# bark()
+
+    #Math modules
+# import math
+# print(math.sqrt(4))
+
+
+#Accepting Arguments
+
