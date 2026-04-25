@@ -43,7 +43,22 @@
 # print("Your age is " + age)
 
 #Lists
-names = ['John', 'Kennedy', 'Marshe', 'Ken']
-names[2] = "Java" #change obj 2 to Java.
-print(names) #names list will result in new updated list.
+# names = ['John', 'Kennedy', 'Marshe', 'Ken']
+# names[2] = "Java" #change index 2 to Java.
+# print(names) #names list will result in new updated list.
+# # names.append
+# names.extend(["Sara", "Jude"]) #add 2 new items to the list.
+# names.remove("John")
+# names[1:1] = ["Test1", "Test2"] #insert new items in the middle of list.
+# names.append("jake")
+# names.sort(key=str.lower) #sorts the items in alphabetical order.
+# print(names)
 
+#Tuples, uses parenthesis () instead of []
+
+# name2 = "roger", "Syd"
+# print(sorted(name2))
+
+#Dictionaries
+dog = {"name": "Roger", "age": 8}
+print(dog.get("name"))
